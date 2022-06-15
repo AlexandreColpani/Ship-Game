@@ -180,13 +180,13 @@ function gerenciaGame(){
 	if(cont<=0){
 		jogo=false;
 		clearInterval(tmpCriaBomba);
-		telaMsg.style.backgroundImage="url('../../image/vitoria.jpg')";
+		telaMsg.style.backgroundImage="url('image/vitoria.jpg')";
 		telaMsg.style.display="block";
 	}
 	if(vidaPlaneta<=0){
 		jogo=false;
 		clearInterval(tmpCriaBomba);
-		telaMsg.style.backgroundImage="url('../../image/derrota.jpg')";
+		telaMsg.style.backgroundImage="url('image/derrota.jpg')";
 		telaMsg.style.display="block";
 			
 	}
@@ -264,7 +264,7 @@ function inicia(){
 
 	//Telas
 	telaMsg=document.getElementById("telaMsg");
-	telaMsg.style.backgroundImage="url('../../image/intro.jpg')";
+	telaMsg.style.backgroundImage="url('image/intro.jpg')";
 	telaMsg.style.display="block";
 	document.getElementById("btnJogar").addEventListener("click",reinicia);
 
