@@ -75,7 +75,7 @@ function atira(x,y){
 	var att6=document.createAttribute("id"); //Audio
 	att1.value="tiroJog";
 	att2.value="top:"+y+"px;left:"+x+"px";
-	att5.value="../../audio/tiro.wav?"+new Date();
+	att5.value="audio/tiro.wav?"+new Date();
 	att6.value="somTiro"+isomTiro;
 	t.setAttributeNode(att1);
 	t.setAttributeNode(att2);
@@ -145,12 +145,12 @@ function criaExplosao(tipo,x,y){ //Tipo 1=AR, 2=TERRA
 	if(tipo==1){
 		att1.value="explosaoAr";
 		att2.value="top:"+y+"px;left:"+x+"px;";
-		att4.value="../../image/explosao_ar.gif?"+new Date();
+		att4.value="image/explosao_ar.gif?"+new Date();
 		cont=cont-10; // controle de acertos dos inimigos
 	}else{
 		att1.value="explosaoChao";
 		att2.value="top:"+(tamTelaH-57)+"px;left:"+(x-17)+"px;";
-		att4.value="../../image/explosao_chao.gif?"+new Date();
+		att4.value="image/explosao_chao.gif?"+new Date();
 	}
 	att5.value="exp1.mp3?"+new Date();
 	att6.value="som"+isom;
