@@ -1,8 +1,9 @@
 <p align="center">
 <img src="image/Terra.jpg" width="45%" > </img> 
 </p>
-          
-## Dedicated repository for creating and studying a spaceship game
+
+<h1 align="center">Spaceship Game</h1>
+### Dedicated repository for creating and studying a spaceship game
 > Status: Development 
 
 ### Credits
