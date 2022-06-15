@@ -1,0 +1,81 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: burlywood;
+    background-image: url("../../image/terra.jpg");
+}
+.planeta {
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.inimigos {
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.navJog {
+    width: 40px;
+    height: 40px;
+    background-image: url("../../image/nave_jog.gif");
+    position: absolute;
+}
+.telaMsg {
+    position: absolute;
+    margin-left: -25%;
+    top: 50px;
+    left: 50%;
+    width: 720px;
+    height: 621px;
+    display: none;
+}
+#medidorPlaneta{
+    border: 2px solid #000;
+    width: 300px;
+    height: 20px;
+    background-color: #fff;
+}
+#barraPlaneta{
+    width: 300px;
+    height: 20px;
+    background-color: #ff0000;
+}
+#medidorInimigos{
+    border: 2px solid #000;
+    width: 300px;
+    height: 20px;
+    background-color: #fff;
+}
+#barraInimigos{
+    width: 300px;
+    height: 20px;
+    background-color: #3299CC;
+}
+.tiroJog {
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 6px;
+    position: absolute;
+}
+.bomba {
+    width: 24px;
+    height: 40px;
+    background-image: url("../../image/bomba.gif");
+    position: absolute;
+}
+.explosaoChao{
+    width: 55px;
+    height: 57px;
+    position: absolute;
+}
+.explosaoAr{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+}
