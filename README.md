@@ -37,7 +37,7 @@ Link to play: https://alexandrecolpani.github.io/spaceship-game/
 
 
 #### ✔️ Features
-- [x] 1º Phrase
+- [x] One level phrase
 - [x] Win and lose system
 - [ ] More levels to play
 - [ ] Tutorial system
