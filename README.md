@@ -12,6 +12,6 @@ Link: https://www.youtube.com/c/cfbcursos
 
 ### Play this game
 
-https://alexandrecolpani.github.io/Ship-Game/
+https://alexandrecolpani.github.io/spaceship-game/
 
 <img src="image/nave_jog.gif" > </img> 
