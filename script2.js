@@ -146,11 +146,11 @@ function criaExplosao(tipo,x,y){ //Tipo 1=AR, 2=TERRA
     if(tipo==1){
         att1.value="explosaoAr";
         att2.value="top:"+y+"px;left:"+x+"px;";
-        att4.value="../../image/explosao_ar.gif?"+new Date();
+        att4.value="image/explosao_ar.gif?"+new Date();
     }else{
         att1.value="explosaoChao";
         att2.value="top:"+(tamTelaH-57)+"px;left:"+(x-17)+"px;";
-        att4.value="../../image/explosao_chao.gif?"+new Date();
+        att4.value="image//explosao_chao.gif?"+new Date();
     }
     att5.value="exp1.mp3?"+new Date();
     att6.value="som"+isom;
@@ -179,13 +179,13 @@ function gerenciaGame(){ // Gerencia o Game em caso de vitória ou Derrota
     if(contBombas<=0){ // Em caso de Vitória
         jogo=false;
         clearInterval(tmpCriaBomba);
-        telaMsg.style.background="url('../../image/vitoria.jpg')";
+        telaMsg.style.background="url('image/vitoria.jpg')";
         telaMsg.style.display="block";
     }
     if(vidaPlaneta<=0){ // Em caso de Derrota
         jogo=false;
         clearInterval(tmpCriaBomba);
-        telaMsg.style.background="url('../../image/derrota.jpg')";
+        telaMsg.style.background="url('image/derrota.jpg')";
         telaMsg.style.display="block";
     }   
 }
@@ -260,7 +260,7 @@ function inicia() { // Funcão de inicialização do Game
 
     //Controle de Telas
     telaMsg=document.getElementById("telaMsg");
-    telaMsg.style.background="url('../../image/intro.jpg')";
+    telaMsg.style.background="url('image/intro.jpg')";
     telaMsg.style="block";
     document.getElementById("btnJogar").addEventListener("click",reinicia);
 
