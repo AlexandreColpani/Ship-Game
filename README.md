@@ -1,6 +1,9 @@
+<p align="center">
+<img src="image/Terra.jpg" width="45%" > </img> 
+</p>
+          
 ## Dedicated repository for creating and studying a spaceship game
-
-> Status: Development
+> Status: Development 
 
 ### Credits
 
@@ -10,3 +13,5 @@ Link: https://www.youtube.com/c/cfbcursos
 ### Play this game
 
 https://alexandrecolpani.github.io/Ship-Game/
+
+<img src="image/nave_jog.gif" > </img> 
